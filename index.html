@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+            <link id="bootstrap-theme" href="https://bootswatch.com/5/cosmo/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  .parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
+.happy{
+ font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+
+
+}
+
+.name{
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 748px) {
+  .happy {
+    margin-top: 150px;
+  }
+}
+
+</style>
+<body>
+  <section class="hero">
+    <h3 class="happy">Happy</h3>
+     <h2 class="parisienne-regular" style="font-size:80px;">Birthday</h2>
+       <section class="slideshow">
+    <div class="slideshow-container">
+      <img id="slide" src="./images/p1.jpg" alt="Slideshow Image">
+    </div>
+  </section>
+      <p class="name" style="font-size: 50px;">Roselyn <img style="width: 50px;" src="./images/rose.png" alt=""></p> 
+    <p>Wishing you a day filled with love and surprises.</p>
+    <!-- <h2 class="typewriter" id="birthday-message"></h2> -->
+
+    <button id="openCardBtn">Open Your Card 💌</button>
+
+      <section class="music-player">
+
+  <!-- <h2>🎵 Voice Message </h2>
+  <div class="audio-wrapper">
+    <audio controls>
+      <source src="./audio/wish.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div> -->
+<section class="music-player">
+  <div class="voice-card">
+
+    <div class="voice-header">
+      <span class="voice-icon">🎵</span>
+      <h2>Voice Message</h2>
+    </div>
+
+    <!-- Wave GIF hidden by default -->
+    <img id="waveGif" src="./images/wave.gif" alt="Playing..." class="wave-gif">
+
+    <audio id="voiceAudio" controls>
+      <source src="./audio/wish.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+  </div>
+</section>
+
+
+</section>
+<a href="https://www.instagram.com/the_kashthrob?igsh=OXBoeDQ1amljNGE4&utm_source=qr" target="_blank" style="
+font-size: 14px;
+color: gray;
+text-decoration: none;
+transition: color 0.3s ease;
+padding-bottom:30px;
+">
+Developed by <span style="font-weight: 600;">Kashthrob</span>
+</a>
+
+
+    <!-- <div class="balloons">
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+    </div> -->
+  </section>
+
+
+
+
+
+
+  <div class="card-modal" id="cardModal">
+    <div class="card-content">
+      <span class="close-btn" id="closeCardBtn">&times;</span>
+      <h2>     My Rose,</h2>
+      <p class="birthday-poem">
+
+Since we’ve started dating, you’ve already changed my life in the most beautiful way. Your smile lights up my world, your hard work inspires me, and just being with you brings me so much peace. I feel incredibly lucky to have you in my life, you’re an amazing photographer, a hardworking girl, and truly one of a kind.
+
+Every time you smile, my heart feels like it could explode. These past few days with you have shown me how positively you’ve changed my life, and I’m already falling for you more than I can explain. I can’t wait to make so many beautiful memories with you, to share a future filled with love, happiness, and endless blessings.
+
+I hope our relationship grows into a beautiful marriage with wonderful kids, and I promise to never stop loving you. You are truly amazing, Rose, and I am so grateful for you. ❤️        </p>
+      <!-- <img src="https://source.unsplash.com/300x200/?cake" alt="Birthday Cake" /> -->
+    </div>
+  </div>
+
+
+
+  
+</body>
+</html>
